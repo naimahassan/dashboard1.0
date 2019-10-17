@@ -8,7 +8,7 @@ import UserProfile from './UserProfile'
 class Content extends Component {
   render() {
     return (
-      <div className="main-panel">
+      <div className="content-panel">
         <Navbar />
         <Switch>
           <Route path="/dashboard" component={Dashboard} />

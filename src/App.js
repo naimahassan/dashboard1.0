@@ -9,7 +9,7 @@ class App extends Component {
       <div className="wrapper">
         <Router>
           <Sidebar />
-          <Route path='/' Component={Content} />
+          <Route path='/' component={Content} />
         </Router>
       </div>
     )
